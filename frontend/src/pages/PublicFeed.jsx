@@ -20,6 +20,7 @@ export default function PublicFeed() {
   const [status, setStatus] = useState('')
   const [upvotingId, setUpvotingId] = useState(null)
 
+  
   useEffect(() => {
     const fetchFeed = async () => {
       setLoading(true)
